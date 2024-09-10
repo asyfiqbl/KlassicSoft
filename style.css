@@ -1,0 +1,173 @@
+/* Resetting some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and typography styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+/* Container for layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 100%; /* This ensures the container stretches fully on mobile */
+    padding: 0 20px; /* Add some padding for breathing space */
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #007BFF;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/Users/asifiqbal/Desktop/website/240_F_624734667_gvD8jWqOyZN9PGuhJw4EOJZSt7aePMn6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #555;
+}
+
+/* About Section */
+#about {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
